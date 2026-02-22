@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav a{
+    text-decoration: none;
+    margin-left: 55px;
+    padding: 5px;
+    
+}
+header{
+    background-color: aquamarine;
+    height: 30px;
+}
+#div{
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color:violet ;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 30%;
+    text-align: center;
+    line-height: 100px;
+    font-style: oblique;
+    color: thistle;
+}
+#box2{
+    z-index: 2;
+    position: absolute;
+    left: 20px;
+}
+#container{
+    border: 3px solid black;
+    margin: 5px;
+}
+#box4{
+    position:fixed;
+    right: 10px;
+}
+footer{
+    background-color: rgb(60, 56, 53);
+    position: fixed;
+    bottom:0px;
+    font-style: italic;
+    color: rgb(195, 123, 29);
+}

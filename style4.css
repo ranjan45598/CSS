@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.div{
+    background-color: blanchedalmond;
+    text-align:center;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    border: 2px dotted black;
+    padding-top: 100px;
+    margin: 100px;
+    border-radius: 200px;
+
+}
+#click-me{
+    height: 70px;
+    width: 70px;
+    background-color:blue;
+    color: rgb(196, 16, 16);
+    padding:10px 15px 10px 15px;
+    margin: 100px;
+    border-radius: 27px;
+    border-color: red;
+    border-style: dotted;
+
+
+}
