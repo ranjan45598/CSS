@@ -1,0 +1,29 @@
+.progress-container{
+    width: 90%;
+    height: 25px;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    border-radius: 20px;
+    position:relative ;
+    left: 4%;
+}
+.progress-bar{
+    background-color: rgb(222, 142, 135);
+    height: 100%;
+    width: 50%;
+    border-radius: 20px;
+    animation: animate_progress 5s infinite;
+}
+@keyframes animate_progress{
+    0%{width: 0%;}
+    90%{width:95%;}
+    95%{width: 70%;}
+    100%{width: 100%;}
+}
+.click-button{
+    width: 100px;
+    height:30px;
+    background-color: rgb(222, 142, 135);
+    border-radius: 10px solid black;
+    transform: rotate(28deg);
+}
